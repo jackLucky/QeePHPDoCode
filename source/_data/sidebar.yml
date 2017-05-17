@@ -1,0 +1,58 @@
+guide:
+  getting_started:
+    start-environment: index.html
+    start-create-app: start-create-app.html
+    start-distructure: start-distructure.html
+    start-arch: start-arch.html
+    start-mvc: start-mvc.html
+    start-mvc-start: start-mvc-start.html
+    start-mvc-controller: start-mvc-controller.html
+  development:
+    development-database: development-database.html
+    development-yaml: development-yaml.html
+    development-configs: development-configs.html
+  automation:
+    automation-controller: automation-controller.html
+    automation-model: automation-model.html
+  thinking:
+    thinking-oo: thinking-oo.html
+    thinking-analysis: thinking-analysis.html
+    thinking-creating-models: thinking-creating-models.html
+  users:
+    users-register-ui: users-register-ui.html
+    users-register-code: users-register-code.html
+    users-login: users-login.html
+    users-change-passwd: users-change-passwd.html
+  acl: 
+    acl-why: acl-why.html
+    acl-do: acl-do.html
+  tasks:
+    tasks-add: tasks-add.html
+    tasks-edit: tasks-edit.html
+    tasks-pagination: tasks-pagination.html
+  routes:
+    routes-router: routes-router.html
+    routes-configs: routes-configs.html
+    routes-rules: routes-rules.html
+
+api:
+  core:
+    overview: index.html
+    events: events.html
+    locals: locals.html
+    router: router.html
+    box: box.html
+    rendering: rendering.html
+    posts: posts.html
+    scaffolds: scaffolds.html
+    themes: themes.html
+  extensions:
+    console: console.html
+    deployer: deployer.html
+    filter: filter.html
+    generator: generator.html
+    helper: helper.html
+    migrator: migrator.html
+    processor: processor.html
+    renderer: renderer.html
+    tag: tag.html

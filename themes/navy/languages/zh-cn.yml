@@ -1,0 +1,78 @@
+menu:
+  home: 首页
+  guide: 快速指南
+  doc: 文档
+  news: 新闻
+  plugins: 插件
+  themes: 主题
+  search: 搜索
+
+index:
+  get_started: 开始使用
+
+page:
+  contents: 目录
+  back_to_top: 回到顶部
+  improve: 改进本文
+  prev: 上一页
+  next: 下一页
+  last_updated: 上次更新：%s
+
+sidebar:
+  guide:
+    getting_started: 开始使用
+    start-environment: 准备开发环境
+    start-create-app: 创建应用程序
+    start-distructure: 目录结构
+    start-arch: QeePHP架构
+    start-mvc: MVC模式
+    start-mvc-start: MVC模式启动
+    start-mvc-controller: 控制器
+    development: 开始开发
+    development-database: 创建数据库
+    development-yaml: YAML 入门
+    development-configs: 修改配置文件
+    automation: 使用自动化工具
+    automation-controller: 创建控制器
+    automation-model: 创建模型
+    thinking: 编码前的思考
+    thinking-oo: 用对象来思考
+    thinking-analysis: 需求分析
+    thinking-creating-models: 创建需要的模型
+    users: 实现用户功能
+    users-register-ui: 注册（界面）
+    users-register-code: 注册（功能）
+    users-login: 登录和注销
+    users-change-passwd: 修改密码
+    acl: 访问控制
+    acl-why: 为什么要使用访问控制
+    acl-do: 实现访问控制
+    tasks: 实现任务管理
+    tasks-add: 添加任务
+    tasks-edit: 修改和删除任务
+    tasks-pagination: 分页与最后的完善
+    routes: 美化 URL
+    routes-router: URL 路由是什么
+    routes-configs: 启用 URL 路由
+    routes-rules: 添加路由规则
+  api:
+    core: 核心
+    overview: 概述
+    events: 事件
+    locals: 本地变量
+    router: 路由
+    box: 盒(Box)
+    rendering: 渲染
+    posts: 文章
+    scaffolds: 模版 (Scaffold)
+    themes: 主题
+    extensions: 扩展
+    console: 控制台 (Console)
+    deployer: 部署器 (Deployer)
+    filter: 过滤器 (Filter)
+    generator: 生成器 (Generator)
+    helper: 辅助函数 (Helper)
+    migrator: 迁移器 (Migrator)
+    processor: 处理器 (Processor)
+    renderer: 渲染引擎 (Renderer)
+    tag: 标签 (Tag)
