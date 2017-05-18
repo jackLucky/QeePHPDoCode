@@ -19,7 +19,7 @@ addons:
 before_install:
 - touch ~/.ssh/id_rsa_docode
 - chmod 777 ~/.ssh/id_rsa_docode
-- openssl aes-256-cbc -K $encrypted_ab963e00ecaf_key -iv $encrypted_ab963e00ecaf_iv
+- sudo openssl aes-256-cbc -K $encrypted_ab963e00ecaf_key -iv $encrypted_ab963e00ecaf_iv
   -in .travis/id_rsa_docode.enc -out ~\/.ssh/id_rsa_docode -d
 #- openssl aes-256-cbc -K $encrypted_0fe06694a206_key -iv $encrypted_0fe06694a206_iv
 #  -in .travis/id_rsa_qeio.enc -out ~\/.ssh/id_rsa_qeio -d
