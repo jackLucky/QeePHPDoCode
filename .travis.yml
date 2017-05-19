@@ -20,12 +20,12 @@ addons:
     packages:
     - g++-4.8
 before_install:
-- openssl aes-256-cbc -k "$sspwd" -in .travis/id_rsa_qeio.enc -out ~/id_rsa_qeio -d
+- openssl aes-256-cbc -k "$sspwd" -in .travis/id_rsa_qeio.enc -out ~/.ssh/id_rsa_qeio -d
 - export TZ='Asia/Shanghai'
 - npm install hexo-cli -g
-- chmod -R 600 ~/id_rsa_qeio
+- chmod -R 600 ~/.ssh/id_rsa_qeio
 - eval $(ssh-agent)
-- ssh-add ~/id_rsa_qeio
+- ssh-add ~/.ssh/id_rsa_qeio
 - cp .travis/ssh_config ~/.ssh/config
 - git config --global user.name "jackLucky"
 - git config --global user.email 262348314@qq.com
