@@ -20,7 +20,7 @@ addons:
     packages:
     - g++-4.8
 before_install:
-- openssl aes-256-cbc -K "$sspwd" -in .travis/id_rsa_qeio.enc -out ~/id_rsa_qeio -d
+- openssl aes-256-cbc -k "$sspwd" -in .travis/id_rsa_qeio.enc -out ~/id_rsa_qeio -d
 - export TZ='Asia/Shanghai'
 - npm install hexo-cli -g
 - chmod -R 600 ~/id_rsa_qeio
