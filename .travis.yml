@@ -26,9 +26,11 @@ before_install:
 install:
 - npm install
 script:
+- git clone https://${GH_TOKEN}@github.com/jackLucky/QeePHPDoc.git .deploy_git -v
 - hexo clean && hexo  g
 after_success:
-- cd ./public
-- git add --all .
-- git commit -m "travis CI auto builder"
-- git push --quiet --force https://$REPO_TOKEN@github.com/jackLucky/QeePHPDoc.git master
+- cp -r public/* .deploy_git/
+- cd .deploy_git
+- git add -A
+- git commit -am "travis CI auto builder"
+- git push  --force
