@@ -31,4 +31,4 @@ after_success:
 - cd ./public
 - git add --all .
 - git commit -m "travis CI auto builder"
-- git push --quiet --force https://$REPO_TOKEN@github.com/jackLucky/QeePHPDoc.git gh-pages
+- git push --quiet --force https://$REPO_TOKEN@github.com/jackLucky/QeePHPDoc.git master
