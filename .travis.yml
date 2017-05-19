@@ -9,16 +9,8 @@ cache:
   directories:
   - node_modules
 env:
-  matrix:
-  - CXX=g++-4.8
   global:
     secure: VX5h1nKlA7Uw4rtatbNHNjFZE3Q1FCOgXpdKQznjtzORS0euXMyTsmH6pgUxprjwYehX9ISoY3DOUre3UnESw/BrQAq+naXEeTYxfMz/P3oecUvhhmsY9dYxrMFo5BeAzwIRcWUTpKv3yb8O4kNAa4CyTkNLvgMvKTQC4/rBD8r/Suk1ATf1+jpIBPXi2n8odg7Jne3kb5KgeMiHFjk46HDZzd1XzegWu/+6BumyQIBVe3JJQxZUUAhcnU/2/Ccq/jMCzp+BfyYURa6FJs7bDAIvxi98RYzKID1SbISjE0cRraZfnVU74qRxbBifwanKKGR1Jx5amYPUkSzl1FXkhnP5AAclOCUU1eUOhUidACCJJes2C+E31AWrApfv1Zo/m7rFFU4Z1wqHws0umMkD7pnuAoBgwHMPMmP4DucOJZZisu5lZYjsB8dgx2O+7ka2jDiodnexOfyuRlGNiaPJ09Tr8zvV6nPxCMfEFHm7RPABQIwWMCTNnR+p1chGA2hvmV5h5EWzhuKkMoXBae3PHsZVT2iRow4Hktm1EzRuv2mtmTScMtF1DKdhRBDzlsqSUUI2IpaMfm4P7CMEMXYiuDnaAeohc3nwlCaXwGsSX4HtTQBEZVVRhNZvyj172EHfKeZJkI2lZEYTKyqna31w5QpHs7cwyFkGNfkLvGooq2s=
-addons:
-  apt:
-    sources:
-    - ubuntu-toolchain-r-test
-    packages:
-    - g++-4.8
 before_install:
 - npm install hexo-cli -g
 - git config --global user.name "jackLucky"
