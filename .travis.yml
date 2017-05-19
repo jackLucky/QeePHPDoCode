@@ -23,10 +23,11 @@ before_install:
 - npm install hexo-cli -g
 - git config --global user.name "jackLucky"
 - git config --global user.email 262348314@qq.com
+- git config --global push.default simple
 install:
 - npm install
 script:
-- git clone https://${GH_TOKEN}@github.com/jackLucky/QeePHPDoc.git .deploy_git -v
+- git clone https://${REPO_TOKEN}@github.com/jackLucky/QeePHPDoc.git .deploy_git -v
 - hexo clean && hexo  g
 after_success:
 - cp -r public/* .deploy_git/
