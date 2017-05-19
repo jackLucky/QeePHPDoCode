@@ -1,5 +1,5 @@
 Host github.com
     User git
     StrictHostKeyChecking no
-    IdentityFile ~/id_rsa_docode
+    IdentityFile ~/id_rsa_qeio
     IdentitiesOnly yes
