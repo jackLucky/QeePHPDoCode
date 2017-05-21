@@ -2,7 +2,7 @@
   <div class="inner">
     <h2 id="banner-title">{{ page.subtitle }}</h2>
     <div id="banner-start">
-      <span id="banner-start-command">https://github.com/jackLucky/qeephp.git </span><a id="banner-start-link" href="{{ config.root }}guide/"><i class="fa fa-arrow-right"></i></a>
+      <span id="banner-start-command"><p class="start-line">git clone https://github.com/jackLucky/qeephp.git</p> </span><a id="banner-start-link" href="{{ config.root }}guide/"><i class="fa fa-arrow-right"></i></a>
     </div>
     <div id="banner-share">{{ partial('partial/share') }}</div>
   </div>
