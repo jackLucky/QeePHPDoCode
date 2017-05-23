@@ -85,18 +85,9 @@ disqus_shortname: hexojs
 baidu_analytics: 15de9d94575a80147b81396595254188
 fb_admins: 100000247608790
 
-algolia:
-  applicationID: 'A7M15R7OJ0'
-  apiKey: '4fe67653ade6c93cd1777e0e3629d15e'
-  adminApiKey: '7110e97827b433ab5b34df8415997c8d'
-  indexName: 'QeePHPDoc_zh-cn'
-  chunkSize: 5000
-  en:
-    api_key: 4fe67653ade6c93cd1777e0e3629d15e
-    index_name: QeePHPDoc_zh-cn
-  zh-cn:
-    api_key: 4fe67653ade6c93cd1777e0e3629d15e
-    index_name: QeePHPDoc_zh-cn
+algolia: 
+  apiKey: c9048046a09af6aa4f4212a8e5ccf714
+  indexName: qeephpdoc
 
 twitter:  
 weibo:  
